@@ -1,0 +1,41 @@
+@import url(config.css);
+
+.summary-container{
+
+    display: flex   ;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 3rem;
+    justify-content: space-between;
+
+    .summary-item{
+        -webkit-box-shadow: 47px 19px 38px 12px rgba(0,0,0,0.52); 
+        box-shadow: 47px 19px 38px 12px rgba(0,0,0,0.52);
+        border-radius: 5px;
+        padding: 1.5em 1em;
+        flex: 1 !important; 
+        margin: auto;
+        color: var(--clr-summary-text) !important  ;
+        background-color:var(--clr-summary-bg);
+        h4{
+            margin-bottom: 10px;
+        }
+    }
+
+    .summary-total{
+        border-left:6px  var(--clr-summary-total) solid;
+    }
+    .summary-income{
+        border-left:6px  var(--clr-summary-income) solid;
+    }
+    .summary-expense{
+        border-left:6px  var(--clr-summary-expense) solid;
+    }
+    .summary-pending{
+        border-left:6px  var(--clr-summary-pending) solid;
+    }
+    .summary-lent{
+        border-left:6px  var(--clr-summary-lent) solid;
+    }
+
+}

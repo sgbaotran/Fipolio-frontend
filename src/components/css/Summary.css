@@ -1,0 +1,43 @@
+@import url(config.css);
+.summary-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.summary-container .summary-item {
+  box-shadow: 47px 19px 38px 12px rgba(0, 0, 0, 0.52);
+  border-radius: 5px;
+  padding: 1.5em 1em;
+  flex: 1 !important;
+  margin: auto;
+  color: var(--clr-summary-text) !important;
+  background-color: var(--clr-summary-bg);
+}
+
+.summary-container .summary-item h4 {
+  margin-bottom: 10px;
+}
+
+.summary-container .summary-total {
+  border-left: 6px var(--clr-summary-total) solid;
+}
+
+.summary-container .summary-income {
+  border-left: 6px var(--clr-summary-income) solid;
+}
+
+.summary-container .summary-expense {
+  border-left: 6px var(--clr-summary-expense) solid;
+}
+
+.summary-container .summary-pending {
+  border-left: 6px var(--clr-summary-pending) solid;
+}
+
+.summary-container .summary-lent {
+  border-left: 6px var(--clr-summary-lent) solid;
+}
+/*# sourceMappingURL=Summary.css.map */

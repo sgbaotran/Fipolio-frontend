@@ -1,0 +1,9 @@
+* {
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 0;
+
+}
+html,body{
+  overscroll-behavior: none
+}

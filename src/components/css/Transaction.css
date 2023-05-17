@@ -1,0 +1,96 @@
+@import url(config.css);
+.transaction-container {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.transaction-container .transaction-item {
+  font-size: 20px;
+  border-bottom: solid var(--clr-title-container) 1px;
+  padding: 8px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.transaction-container .transaction-item .transaction-item-field {
+  border-right: .5px solid white;
+  padding-inline: 16px;
+}
+
+.transaction-container .transaction-item .transaction-name {
+  padding-left: 40px;
+  text-align: start;
+  flex: 3;
+}
+
+.transaction-container .transaction-item .transaction-description {
+  flex: 3;
+}
+
+.transaction-container .transaction-item .transaction-price {
+  text-align: center;
+  flex: 2;
+}
+
+.transaction-container .transaction-item .transaction-date {
+  text-align: end;
+  flex: 2;
+}
+
+.transaction-container .odd {
+  background-color: #1f2236;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.transaction-edit-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: black !important;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.transaction-edit-form .close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.transaction-edit-form .description-edit {
+  background-color: #FFF;
+  padding: 16px;
+  border-radius: 16px;
+  width: 80%;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+}
+
+.transaction-edit-form .button {
+  padding: 16px 32px;
+  border-radius: 999px;
+  background-image: linear-gradient(to right, var(--primary), var(--secondary));
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+  .transaction-name {
+    margin-left: 0 !important;
+  }
+  .transaction-description {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Transaction.css.map */

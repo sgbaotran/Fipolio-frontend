@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root{
+/* for navbar */
+    --clr-navbar-bg: #1d1e30;
+    --clr-navbar-icon:#ffffff;
+/* for main */
+    --clr-main-bg: #19192b;
+    --clr-main-text: #e1effb;
+
+    --clr-summary-bg:#202232;
+    --clr-summary-text:#ffffff;
+
+    --clr-summary-total:#4c71de;
+    --clr-summary-income:#1cc88a;
+    --clr-summary-expense:#34b8cc;
+    --clr-summary-pending:#f7c443;
+    --clr-summary-lent:#d51159;
+
+    --font-primary:'Montserrat', sans-serif;
+
+    --clr-container-title:#292c45
+}
+
+
